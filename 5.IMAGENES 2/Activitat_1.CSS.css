@@ -1,0 +1,54 @@
+.chat {
+    width: 40em;
+    margin: 0 auto;
+}
+
+.mensaje {
+    display: flex;
+    margin-bottom: 1.5em;
+    margin-left: 0.5em;
+}
+
+.avatar {
+    width: 15%; 
+    height: 15%;
+    border-radius: 50%;  
+    overflow: hidden;  
+}
+
+.avatar img {
+    width: 100%;  
+    height: auto; 
+}
+
+.interior {
+    margin-left: 6em;
+    border-radius: 1.2em;
+    padding: 1.2em;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.fecha {
+    margin-left: 1em;
+    font-size: 0.6em;
+    color: blueviolet;
+    opacity: 40%;
+}
+
+.nombre {
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.texto p {
+    font-size: 1em;
+    color: coral;
+}
+
